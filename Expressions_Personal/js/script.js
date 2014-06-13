@@ -1,6 +1,7 @@
 // Erika Narvaez
+// this is going to calculate hw much gas you use
 var gas = prompt("We are going to calcuate how much money you spend on gas daily driving to work. Please enter how much you spend filling up your tank");
-var fill = prompt("How many times in the month do you fill your gas tank?");
+var fill = prompt("How many times in the month do you fill your gas tank?");// average amount user pumps gas
 var work = prompt("Please enter how many times during the week you drive to work");
 
 var total = Math.round (gas * fill / work / 7);//this is going to give us our daily usage of gas 
