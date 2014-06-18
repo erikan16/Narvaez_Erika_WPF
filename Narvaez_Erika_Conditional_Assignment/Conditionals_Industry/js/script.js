@@ -24,12 +24,15 @@ if(interest == 'yes'){
 	//prompted used if condition is true
 	alert("Great! Let's get started!")
 	console.log("Great! Let's get started!");
-	
+
+// advises the client amount per update	
 	var cost = prompt("We charge $300 for a interface redesign per site. How many sites are you needing to update?");
 	console.log(cost);
 
+//calculates the amount charged per site (update) 
 	var amount = 300 * cost;
 
+//alerts the final amount 
 	alert(name+"the total cost for "+cost+" website updates will be $"+amount);
 	console.log(name+"the total cost for "+cost+" website updates will be $"+amount);
 
