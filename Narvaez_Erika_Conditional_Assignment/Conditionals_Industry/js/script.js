@@ -30,8 +30,8 @@ if(interest == 'yes'){
 
 	var amount = 300 * cost;
 
-	alert(name+"the total cost for "+cost+" websites will be $"+amount);
-	console.log(name+"the total cost for "+cost+" websites will be $"+amount);
+	alert(name+"the total cost for "+cost+" website updates will be $"+amount);
+	console.log(name+"the total cost for "+cost+" website updates will be $"+amount);
 
 }else{
 	//prompted used if client enters false
