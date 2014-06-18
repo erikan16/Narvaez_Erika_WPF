@@ -3,17 +3,30 @@
  * June 15, 2014
  * Conditional Industry
  */
+//welcome client with prompt
+alert("Hi and welcome to our virtual website build calculator.");
 
-alert("Hi and welcome to our virtual website build calculator.\nLets get started!");
-
+//allows client to enter name
 var name = prompt("What is your name?");
 console.log(name);
 
-var question1 = prompt("Are you looking for a interface redesign?)
-if (yes){
-	Great we can get started
-} else{
-	Awww Man we cant help you... try back again later.
-};
+//advises client that their order is about to begin
+alert("Hi "+name+" let's get started!")
+
+//prompts the client to decide if they want to keep going with order
+var interest = prompt("Are you interested in a interface redesign?");
+
+//setting up the condition
+var correct = true;
+
+if(correct){
+	//prompted used if condition is true
+	alert("Great! Let's get started!");
+	console.log("Great! Let's get started!");
+}else{
+	//prompted used if client enters false
+	alert("Awww Man we can't help you... come back again later.");
+	console.log("Awww Man we can't help you... come back again later.");
+} 
 
 
