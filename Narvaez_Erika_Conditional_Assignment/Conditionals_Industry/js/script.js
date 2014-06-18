@@ -15,13 +15,12 @@ alert("Hi "+name+" let's get started!")
 
 //prompts the client to decide if they want to keep going with order
 var interest = prompt("Are you interested in a interface redesign?");
+console.log(interest);
 
 //setting up the condition
-var correct = true;
-
-if(correct){
+if(interest == 'yes'){
 	//prompted used if condition is true
-	alert("Great! Let's get started!");
+	 alert("Great! Let's get started!")
 	console.log("Great! Let's get started!");
 }else{
 	//prompted used if client enters false
