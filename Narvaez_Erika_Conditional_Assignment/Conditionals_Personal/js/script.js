@@ -23,3 +23,20 @@ console.log(item);
 var buying = prompt("How many are you needing to purchase?");
 console.log(buying);
 
+//prompts the client to enter the amount of coupons being used for the sale item
+var numCoupon = prompt("How many coupons do you have for this particular item?");
+console.log(numCoupon);
+
+
+//setting up the condition
+if(numCoupon > 1){
+	//prompted used if condition is more than 1 coupon used
+	var  moreThan1 = prompt("What is the total amount off with all coupons combined?")
+	console.log(moreThan1);
+
+
+}else{
+	//prompted used if client enters false
+	alert("Please review your answers.");
+	console.log("Please review your answers");
+} 
