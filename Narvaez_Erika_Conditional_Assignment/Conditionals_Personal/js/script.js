@@ -13,10 +13,10 @@ console.log(name);
 
 //advises client that we have confirmed their input and we are going to get started
 alert("Great! "+name+" is on sale");
-console.log("Hi "+name+" let's get started!")
+console.log("Great! "+name+" is on sale")
 
 //prompts the client to enter the purchase price of the item
-var item = prompt("How much does the"+name+" cost?");
+var item = prompt("How much does the "+name+" cost?");
 console.log(item);
 
 //prompts the client to enter the amount of items wanting to purchase
@@ -33,10 +33,23 @@ if(numCoupon > 1){
 	//prompted used if condition is more than 1 coupon used
 	var  moreThan1 = prompt("What is the total amount off with all coupons combined?")
 	console.log(moreThan1);
-
-
+	 
+	 // calculation for sale price with more than 1 cp 
+	 var price = parseInt(item * buying - moreThan1);
+	 console.log(price);
+	 
+	 //alert shows total amount customer will have to pay after coupons
+	 alert("After using "+numCoupon+" coupons you will only pay $"+price+" dollars for "+buying+" "+name);
+	 
 }else{
-	//prompted used if client enters false
-	alert("Please review your answers.");
-	console.log("Please review your answers");
+	//prompted used if condition is only 1 coupon
+	var  just1 = prompt("What is the total amount of the coupon?")
+	console.log(just1);
+	
+	// calculation for sale price with only 1 cp 
+	 var totalPrice = parseInt(item * buying - just1);
+	 console.log(totalPrice);
+	 
+	 //alert shows total amount customer will have to pay after coupons
+	 alert("After using "+numCoupon+" coupon you will only pay $"+totalPrice+" dollars for "+buying+" "+name);
 } 
