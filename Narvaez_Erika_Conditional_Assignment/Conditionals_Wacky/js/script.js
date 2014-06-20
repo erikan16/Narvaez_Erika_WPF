@@ -11,11 +11,28 @@ alert("Let's calculate your mortage interest!");
 var name = prompt("What is your name?");
 console.log(name);
 
-//prompt requesting loan amount 
-var mortgage = prompt("How much did you purchase your home for?");
-console.log(mortgage);
+var comma = false;
 
-mortgage = isNaN ? console.log("No comma was used!"): alert("Please re-enter with no comma!") console.log("Comma was used"); return
+while(comma == false){
+	var mortgage = prompt("How much did you purchase your home for?");
+	console.log(mortgage);
+	
+	comma = mortgage.search(',');
+	
+	comma = (comma == -1) ? true : false;
+	console.log("Comma exists: " + comma);
+	
+	if(comma == true){
+		// insert continuation code
+	} else {
+		alert("Please enter a number with no commas");
+	}
+};
+
+//prompt requesting loan amount 
+
+
+// mortgage = replace(/[^0-9]/g, '') ? console.log("No comma was used!"): alert("Please re-enter with no comma!");
 
 var interest = prompt("What is your current interst rate?");
 console.log(interest);
