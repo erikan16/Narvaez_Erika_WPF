@@ -15,9 +15,7 @@ console.log(name);
 var mortgage = prompt("How much did you purchase your home for?");
 console.log(mortgage);
 
-var number;
-
-number = mortgage % 1 != 0 console.log("No comma was used!"): alert("Please re-enter with no comma!");
+mortgage = isNaN ? console.log("No comma was used!"): alert("Please re-enter with no comma!") console.log("Comma was used"); return
 
 var interest = prompt("What is your current interst rate?");
 console.log(interest);
