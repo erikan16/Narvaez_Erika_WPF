@@ -43,6 +43,7 @@ console.log(interest);
 var calcInterest = mortgage * (interest / 100);
 console.log(calcInterest);
 
+//alerts the user the total results 
 alert(name+" your "+interest+"% interest rate comes out to be $"+calcInterest+" dollars.");
 console.log(name+" your "+interest+"% interest rate comes out to be $"+calcInterest+" dollars.");
 
