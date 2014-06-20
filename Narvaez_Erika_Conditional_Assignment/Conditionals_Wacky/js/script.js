@@ -16,6 +16,7 @@ var mortgage = prompt("How much did you purchase your home for?");
 console.log(mortgage);
 
 //prompt requesting loan term 
-var length = prompt("Please enter your loan term.")
+var length = prompt("Please enter your loan term.");
 console.log(length);
 
+var interest = prompt("What is your current interst rate?");
