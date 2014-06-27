@@ -33,9 +33,11 @@ if(sandwich === "pita"){
 var people = prompt("How many people are going to attend your office party?");
 console.log(people);
 
+//if amount of people are over 20 alert will be "Wow great party" if less alert will be "That's great" 
 var results = (people > 20) ? alert("Wow that's a great party!") : alert("That's great!");
 console.log(results);
 
+//alert advising user what we charge for each sandwich
 alert("We charge $3.00 for each sandwich. \n Your order is coming right up!");
 console.log("We charge $3.00 for each sandwich. \n Your order is coming right up!")		
 
