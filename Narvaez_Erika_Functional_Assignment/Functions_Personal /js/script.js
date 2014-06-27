@@ -22,13 +22,13 @@ console.log(accesories);
 var amountTotal = total(shirt, pants, shoes, accesories);
 console.log(amountTotal);
 
-function total(shirt, pants, shoes, accesories){
+function total(shirtBuy, pantsBuy, shoesBuy, accesoriesBuy){
 	
-	var price = shirt + pants + shoes + accesories;
+	var price = Math.random()*(shirtBuy-pantsBuy)+Number(shoesBuy+accesoriesBuy);
 	
-	return amountTotal;
+	return price;
 }
 
-alert("Your total amount is $"+amountTotal);
-console.log("Your total amount is $"+amountTotal);
+alert("Your total amount is $"+price);
+console.log("Your total amount is $"+price);
 
