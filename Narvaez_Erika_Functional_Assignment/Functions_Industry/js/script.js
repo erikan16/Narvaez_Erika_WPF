@@ -18,8 +18,17 @@ if(sandwich === "pita"){
 		
 }else{
 		var bread = prompt("Okay! We have white, wheat, honey wheat, or potato bread?");
-	    console.log(bread);	
+	    console.log(bread);
+	    		
+		alert("Great! I love "+bread+" too!");
+		console.log("Great! I love "+bread+" too!");
 }
+
+var meat = prompt("Would you like lettuce and tomatoes?");
+console.log(meat);
+
+
+
 
 
 
