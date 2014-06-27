@@ -20,6 +20,7 @@ if(sandwich === "pita"){
 		console.log("Great Pita bread it is!");
 		
 }else{
+		//allows the user to choose which type of regular bread the want
 		var bread = prompt("Okay! We have white, wheat, honey wheat, or potato bread?");
 	    console.log(bread);
 	    		
