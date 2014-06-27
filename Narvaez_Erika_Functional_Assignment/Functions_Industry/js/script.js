@@ -30,8 +30,12 @@ console.log(people);
 var results = (people > 20) ? alert("Wow that's a great party!") : alert("That's great!");
 console.log(results);
 
-alert=("We charge $3.00 for each sandwich. \n Your order is u=comming right up!");
-console.log("We charge $3.00 for each sandwich. \n Your order is u=comming right up!")		
+alert("We charge $3.00 for each sandwich. \n Your order is coming right up!");
+console.log("We charge $3.00 for each sandwich. \n Your order is coming right up!")		
+
+var price = people * 3;
+console.log(price); 
 
 alert("Your order for "+people+" sandwiches is $"+price);
+console.log("Your order for "+people+" sandwiches is $"+price);
 
