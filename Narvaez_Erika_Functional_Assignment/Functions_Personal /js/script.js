@@ -8,7 +8,7 @@ alert("We are going to calculate your total purchase price!");
 console.log("We are going to calculate your total purchase price!");
 
 
-var shirt = prompt("How much did your shoes cost?");
+var shirt = prompt("How much did your shirt cost?");
 console.log(shirt);
 while(isNaN(shirt) || ""){
 		shirt = prompt("Please enter a number.");
@@ -34,16 +34,16 @@ console.log(accesories);
 while (isNaN(accesories) || ""){
 	accesories = prompt("Please enter a number");	
 }
-var amountTotal = total(shirt, pants, shoes, accesories);
+var result = price(shirt, pants, shoes, accesories);
 console.log(amountTotal);
 
-function total(shirtBuy, pantsBuy, shoesBuy, accesoriesBuy){
+function total(shirt, pants, shoes, accesories){
 	
-	var price = Math.random()*(shirtBuy-pantsBuy)+Number(shoesBuy+accesoriesBuy);
+	var price = parseInt(shirtBuy + pantsBuy + shoesBuy + accesoriesBuy);
 	
 	return price;
 }
 
-alert("Your total amount is $"+price);
-console.log("Your total amount is $"+price);
+alert("Your total amount is $"+result);
+console.log("Your total amount is $"+result);
 
