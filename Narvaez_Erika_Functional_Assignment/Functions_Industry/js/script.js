@@ -24,11 +24,14 @@ if(sandwich === "pita"){
 		console.log("Great! I love "+bread+" too!");
 }
 
-var meat = prompt("Would you like lettuce and tomatoes?");
-console.log(meat);
+var people = prompt("How many people are going to attend your office party?");
+console.log(people);
 
+var results = (people > 20) ? alert("Wow that's a great party!") : alert("That's great!");
+console.log(results);
 
+alert=("We charge $3.00 for each sandwich. \n Your order is u=comming right up!");
+console.log("We charge $3.00 for each sandwich. \n Your order is u=comming right up!")		
 
-
-
+alert("Your order for "+people+" sandwiches is $"+price);
 
