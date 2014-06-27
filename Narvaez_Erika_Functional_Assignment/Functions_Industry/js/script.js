@@ -41,9 +41,11 @@ console.log(results);
 alert("We charge $3.00 for each sandwich. \n Your order is coming right up!");
 console.log("We charge $3.00 for each sandwich. \n Your order is coming right up!")		
 
+//we are multiplying the amount of people by the amount charged per sandwich 
 var price = people * 3;
 console.log(price); 
 
+// final message alerting user total amount needed for the amount of people 
 alert("Your order for "+people+" sandwiches is $"+price);
 console.log("Your order for "+people+" sandwiches is $"+price);
 
