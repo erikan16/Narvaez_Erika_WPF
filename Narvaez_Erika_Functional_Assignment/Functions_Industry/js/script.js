@@ -15,6 +15,7 @@ console.log("sandwich");
 // if else 
 if(sandwich === "pita"){
 	
+		//alerts the user that Pita bread has been choosen
 		alert("Great Pita bread it is!");
 		console.log("Great Pita bread it is!");
 		
