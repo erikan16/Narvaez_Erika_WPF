@@ -8,9 +8,11 @@
 alert("Office Party and you are the organizer! \nWe need to buy sandwiches for everyone!");
 console.log("Office Party and you are the organizer! \nWe need to buy sandwiches for everyone!");
 
+//prompts the user to enter a choice 
 var sandwich = prompt("Do you prefer your sandwiches on pita bread or regular bread?");
 console.log("sandwich");
 
+// if else 
 if(sandwich === "pita"){
 	
 		alert("Great Pita bread it is!");
