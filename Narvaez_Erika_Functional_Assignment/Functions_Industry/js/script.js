@@ -23,11 +23,13 @@ if(sandwich === "pita"){
 		//allows the user to choose which type of regular bread the want
 		var bread = prompt("Okay! We have white, wheat, honey wheat, or potato bread?");
 	    console.log(bread);
-	    		
+	    	
+	    	//alerts the user that we have confirmed their choosen bread	
 		alert("Great! I love "+bread+" too!");
 		console.log("Great! I love "+bread+" too!");
 }
 
+//prompts the user for an amount of people 
 var people = prompt("How many people are going to attend your office party?");
 console.log(people);
 
